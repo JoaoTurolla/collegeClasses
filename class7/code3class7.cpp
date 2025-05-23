@@ -3,6 +3,8 @@
 
 using namespace std;
 
+//Purely testing nothing to do with the class itself
+
 int main(){
    int vector[5] = {1, 2, 3, 4, 5};
    int *pt = vector; //&vector is not necessary, vector suffices
