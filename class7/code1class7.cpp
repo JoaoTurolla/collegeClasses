@@ -19,4 +19,5 @@ int main(){
       cout << vector[i] <<endl;
    }
 
+   return 0;
 }

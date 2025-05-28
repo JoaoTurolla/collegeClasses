@@ -43,4 +43,6 @@ int main(){
    } 
 
    printer(wordA, wordB, m);
+
+   return 0;
 }

@@ -14,4 +14,5 @@ int main(){
 
    cout << sqFunc(5.0f);
 
+   return 0;
 }

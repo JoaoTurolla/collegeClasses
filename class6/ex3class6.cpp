@@ -25,4 +25,6 @@ int numDigits(int n){
 int main() {
    numDigits(100);
    cout << digitTotal <<endl;
+
+   return 0;
 }

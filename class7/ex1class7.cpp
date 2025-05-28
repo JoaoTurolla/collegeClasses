@@ -19,5 +19,5 @@ int main(){
 
    cout << wordA << " starts with the letter: " << wordA[0] <<endl;
 
-   delete[] wordA;
+   return 0;
 }

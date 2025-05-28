@@ -32,4 +32,6 @@ int main(){
    ans = isPalindrome(numToCheck);
   
    if(ans == 1) cout << "It is a palindrome"; else cout << "It is not a palindrome";
+
+   return 0;
 }

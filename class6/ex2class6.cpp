@@ -18,4 +18,6 @@ int sumTillNum(int n){
 int main() {
    sumTillNum(100);
    cout << total <<endl;
+
+   return 0;
 }

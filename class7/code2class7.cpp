@@ -19,4 +19,6 @@ int main(){
    for(int i = 0; i < sizeof(vector)/sizeof(vector[0]); i++){
       cout << vector[i] <<endl;
    }
+
+   return 0;
 }

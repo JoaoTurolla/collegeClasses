@@ -39,4 +39,6 @@ int main(){
    cin >> word;
 
    elInversor(word);
+
+   return 0;
 }

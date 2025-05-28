@@ -29,4 +29,5 @@ int main(){
 
    imcClassif(54.5f, 1.7f);
    
+   return 0;
 }

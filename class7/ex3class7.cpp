@@ -23,4 +23,6 @@ int main(){
    cin >> three;
 
    verify(one, two, three);
+
+   return 0;
 }

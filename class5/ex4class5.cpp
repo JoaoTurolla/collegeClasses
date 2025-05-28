@@ -20,4 +20,5 @@ int main(){
 
    cout << isPrime(13);
    
+   return 0;
 }

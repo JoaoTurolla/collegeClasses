@@ -11,4 +11,6 @@ float cToF(float c){
 int main(){
 
    cout << cToF(30.0f);
+
+   return 0;
 }

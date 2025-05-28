@@ -19,4 +19,6 @@ int main(){
    circCalc(&a, &p, r);
 
    cout << a << p << r;
+
+   return 0;
 }
