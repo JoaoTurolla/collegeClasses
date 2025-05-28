@@ -4,14 +4,15 @@
 using namespace std;
 
 int getRealSize(char *k){
-   int counter = 0;
+   int counter = 0, i = 0;
 
-   for(int i = 0; i < sizeof(k)/sizeof(k[0]); i++){
-      if(k[i] != '\0'){
-         counter++;
-      } else return counter;
-   }
-   return counter;
+   while(k[i] != '\0'){
+      counter++;
+         
+      cout << counter <<endl;
+         
+      i++;
+   } return counter;
 } 
 
 void printer(char *a, char *b, int size){
