@@ -5,12 +5,11 @@ using namespace std;
 
 
 int getRealSize(char *k){
-   int counter = 0, i = 0;
+   int i = 0;
 
-   while(k[i] != '\0'){
-      counter++;        
+   while(k[i] != '\0'){        
       i++;
-   } return counter;
+   } return i;
 }
 
 void elInversor(char *a){
