@@ -26,8 +26,10 @@ void imcClassif(float Kg,float height){
 }
 
 int main(){
+   int a;
 
    imcClassif(54.5f, 1.7f);
    
+   cin >> a;
    return 0;
 }

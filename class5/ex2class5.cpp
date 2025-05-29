@@ -11,8 +11,10 @@ float sqFunc(float x){
 }
 
 int main(){
-
+   int a;
+   
    cout << sqFunc(5.0f);
 
+   cin >> a;
    return 0;
 }

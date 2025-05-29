@@ -9,8 +9,10 @@ void printHello(){
 }
 
 int main(){
-
+   int a;
+   
    printHello();
    
+   cin >> a;
    return 0;
 }

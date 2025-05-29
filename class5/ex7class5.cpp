@@ -12,7 +12,7 @@ void circCalc(float *area, float *perimeter, float radius){
 }
 
 int main(){
-   float r, a, p;
+   float r, a, p; int n;
    
    cin >> r;
 
@@ -20,5 +20,6 @@ int main(){
 
    cout << a << p << r;
 
+   cin >> n;
    return 0;
 }

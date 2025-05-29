@@ -9,13 +9,13 @@ void doubleNum(int *a){
 }
 
 int main(){
-   int x = 2;
+   int x = 2, a;
    
    for(int i = 0; i < 10; i++){
       cout << x <<endl;
       doubleNum(&x); //When using pointers, you MUST set it to the address of given x like this example:(&x);
    }
 
-
+   cin >> a;
    return 0;
 }

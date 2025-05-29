@@ -12,7 +12,7 @@ float line(float x){
 // Functions are defined before the main code.
 
 int main(){
-   float answer;
+   float answer; int a;
 
    for(int i = 0; i < 1000; i++){
       answer = line(14.0f);
@@ -26,5 +26,6 @@ int main(){
 
    cout << num(4) <<endl;
 
+   cin >> a;
    return 0;
 }

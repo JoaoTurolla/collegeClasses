@@ -23,8 +23,11 @@ int numDigits(int n){
 }
 
 int main() {
+   int a;
+   
    numDigits(100);
    cout << digitTotal <<endl;
 
+   cin >> a;
    return 0;
 }

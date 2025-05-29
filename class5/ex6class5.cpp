@@ -25,7 +25,7 @@ int isPalindrome(int num){
 }
 
 int main(){
-   int numToCheck, ans;
+   int numToCheck, ans, a;
 
    cin >> numToCheck;
 
@@ -33,5 +33,7 @@ int main(){
   
    if(ans == 1) cout << "It is a palindrome"; else cout << "It is not a palindrome";
 
+
+   cin >> a;
    return 0;
 }

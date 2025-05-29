@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-   int *v = NULL /* For good practice */, amount;
+   int *v = NULL /* For good practice */, amount, a;
 
    cout << "How many ints do you want?" <<endl;
    cin >> amount;
@@ -19,5 +19,6 @@ int main() {
    realloc(v, amount + 10);
 
    free(v);
+   cin >> a;
    return 0;
 }

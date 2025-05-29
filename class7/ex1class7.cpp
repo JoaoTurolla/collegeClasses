@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
+   int a;
    char word[46];
 
    cin >> word;
@@ -19,5 +20,6 @@ int main(){
 
    cout << wordA << " starts with the letter: " << wordA[0] <<endl;
 
+   cin >> a;
    return 0;
 }

@@ -17,8 +17,10 @@ int isPrime(int x){
 
 
 int main(){
-
+   int a;
+   
    cout << isPrime(13);
    
+   cin >> a;
    return 0;
 }

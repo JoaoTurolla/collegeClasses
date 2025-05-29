@@ -9,8 +9,10 @@ float cToF(float c){
 }
 
 int main(){
-
+   int a;
+   
    cout << cToF(30.0f);
 
+   cin >> a;
    return 0;
 }

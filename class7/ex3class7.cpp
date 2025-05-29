@@ -15,6 +15,7 @@ int verify(char n, char *m, int size){
 }
 
 int main(){
+   int a;
    char one, *two = new char[46];
    int three;
 
@@ -24,5 +25,6 @@ int main(){
 
    verify(one, two, three);
 
+   cin >> a;
    return 0;
 }

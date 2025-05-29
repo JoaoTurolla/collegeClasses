@@ -10,6 +10,7 @@ void doubling(int *n){
 //When using pointers, remember to always pass the parameter as its address: '&a' for example
 
 int main(){
+   int a;
    int vector[5] = {1, 2, 3, 4, 5};
 
    for(int i = 0; i < sizeof(vector)/sizeof(vector[0]); i++){
@@ -20,5 +21,6 @@ int main(){
       cout << vector[i] <<endl;
    }
 
+   cin >> a;
    return 0;
 }

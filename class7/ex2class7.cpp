@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
+   int a;
    int vectorA[5], vectorB[5];
 
    cout << "Write 5 numbers for the first array: " <<endl;
@@ -33,5 +34,6 @@ int main(){
       }
    }
 
+   cin >> a;
    return 0;
 }

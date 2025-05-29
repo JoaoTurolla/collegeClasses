@@ -16,8 +16,11 @@ int sumTillNum(int n){
 }
 
 int main() {
+   int a;
+   
    sumTillNum(100);
    cout << total <<endl;
 
+   cin >> a;
    return 0;
 }

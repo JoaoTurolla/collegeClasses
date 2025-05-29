@@ -34,11 +34,13 @@ void elInversor(char *a){
 }
 
 int main(){
+   int a;
    char *word = new char[46];
 
    cin >> word;
 
    elInversor(word);
 
+   cin >> a;
    return 0;
 }

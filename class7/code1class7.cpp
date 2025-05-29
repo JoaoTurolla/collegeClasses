@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
+   int a;
    int vector[5];
 
    vector[0] = 1;
@@ -19,5 +20,6 @@ int main(){
       cout << vector[i] <<endl;
    }
 
+   cin >> a;
    return 0;
 }

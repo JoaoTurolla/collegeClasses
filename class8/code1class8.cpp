@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 
    char *a;
-   int amount, size, oneChar, *v;
+   int amount, size, oneChar, *v, a;
    oneChar = sizeof(char);
 
    cout << "How many ints do you want?" <<endl;
@@ -24,5 +24,6 @@ int main() {
    }
 
    free(a); //Everytime you work with dynamic allocations of memory, remember to use free at the end of your code.
+   cin >> a;
    return 0;
 }

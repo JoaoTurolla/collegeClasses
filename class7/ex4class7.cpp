@@ -28,7 +28,7 @@ void printer(char *a, char *b, int size){
 }
 
 int main(){
-   char *wordA = new char[46], *wordB = new char[46]; int m, one, two;
+   char *wordA = new char[46], *wordB = new char[46]; int m, one, two; int a;
 
    cin >> wordA;
    cin >> wordB;
@@ -44,5 +44,6 @@ int main(){
 
    printer(wordA, wordB, m);
 
+   cin >> a;
    return 0;
 }
