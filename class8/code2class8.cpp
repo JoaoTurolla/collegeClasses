@@ -16,7 +16,7 @@ int main() {
       return 1;
    };
 
-   realloc(v, amount + 10);
+   v = (int*) realloc(v, amount + 10);
 
    free(v);
    cin >> a;
