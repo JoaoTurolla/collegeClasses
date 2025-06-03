@@ -1,0 +1,166 @@
+a) int c,estaVariavel, q76354, numero;
+
+b) printf("Digite um numero inteiro: ");
+
+c) int a; scanf("%d", &a);
+
+d) if(numero != 7){printf("A variavel numero não e igual a 7");}
+
+e) printf("Este e um programa em C");
+
+f) printf("Este e um programa em C\n Este e um programa em C");
+
+g) printf("Este\n e\n um\n programa\n em\n C");
+
+h) printf("Este 	e 	um 	programa 	em 	C");
+
+
+
+
+2)
+
+a) scanf( “d”, valor ); R: scanf("%d", &valor);
+
+b) printf( “O produto de %d e %d é %d”\n, x, y ); printf("O produto de %d e %d é %d\n", x, y, x * y);
+
+c) primeiroNúmero + segundoNúmero = somaDosNúmeros; R: primeiroNumero + segundoNumero  somaDosNumeros;
+
+d) if ( número => maior )
+	maior == número;
+	
+	R: if(numero >= maior)
+	maior = numero; 
+
+e) Scanf( “%d”, umInteiro ); R: scanf("%d", umInteiro);
+
+f) printf( “Módulo de %d dividido por %d é\n”, x, y, x % y ); R: printf("Modulo de %d dividido por %d é\n", x, y, x % y);
+
+g) if ( x = y );
+	printf( %d é igual a %d\n”, x, y );
+
+	R: if(x == y)
+	printf("%d é igual a %d\n", x, y);
+
+h) print( “A soma é %d\n,” x + y ); R: printf("A soma é %d\n", x + y);
+
+i) Printf( “O valor que você digitou é: %d\n, &valor ); R: printf("O valor que você digitou é: %d\n", valor);
+
+3)
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	int a, b;
+
+	cout << "Type a whole number: ";
+	cin >> a;
+
+	cout << <<endl << "Type a whole number again: ";
+	cin >> b;
+
+	if (a > b){
+		cout << <<endl << a <<" is bigger" <<endl;
+	} else if(b > a) {
+		cout << <<endl << b <<" is bigger" <<endl;
+	} else {
+		cout << "The numbers you typed are equal" <<endl;
+	}
+
+cin >> a;
+return(0);
+}
+
+4)
+
+a) 
+using namespace std;
+
+int main(){
+   int sum = 0;
+
+   for(int counter = 3; counter < 98; counter += 2){
+      sum = sum + counter;
+   }
+      cout << "The total is: " << sum <<endl;
+
+   return(0);
+}
+
+b) 
+using namespace std;
+
+int main(){
+	char num[15] = "3333,546372";
+	int lim = 6;
+
+	for(lim; lim <= 10; lim++){
+		for(int i = 0; i < lim; i++){
+			cout  << num[i];
+		}
+      cout <<endl;
+	}
+
+return(0);
+}
+
+c)
+using namespace std;
+
+int main(int argc, char **){
+   
+   int lim = 5;
+	float numOne = pow(2.5, 3);
+   
+   string output = std::to_string(numOne);
+
+	for(int i = 0; i < lim; i++){
+      cout << output[i];
+   }
+
+
+return(0);
+}
+
+d) 
+using namespace std;
+
+int main(){
+	int x, y = 1;
+
+	while(y < 21){
+		cout << "" << y;
+		x++;
+	
+		if(x % 5 == 0){
+			cout <<endl;
+		} else {
+			cout << "	";
+		}
+	}
+	return(0);
+}
+
+e)
+using namespace std;
+
+int main(){
+
+	int x, y = 1;
+	
+	for(y; y < 21; y++){
+		cout << y;
+		x++;
+		if(x % 5 == 0){
+			cout <<endl;
+		} else {
+			cout << "	";
+		}
+
+	}
+
+return(0);
+}
