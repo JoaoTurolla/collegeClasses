@@ -8,10 +8,8 @@ int main() {
 
    v = (int*) malloc(sizeof(int));
 
-   if(v == NULL){ 
-      cout << "Memory allocation error" <<endl;
-      return 1;
-   }
+   if(v == NULL) return 1;
+   
    
    while(a != -1){
       cin >> a;

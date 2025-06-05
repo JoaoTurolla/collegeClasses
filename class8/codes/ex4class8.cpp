@@ -29,6 +29,8 @@ int main() {
 
    v = (int*) calloc(size, sizeof(int));
 
+   if(v == NULL) return 1;
+
    for(int i = 0; i < size; i++){
       cout << "What's the number of index " << i << " in your vector?" <<endl;
       cin >> v[i];

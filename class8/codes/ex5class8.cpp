@@ -8,11 +8,8 @@ int main() {
 
    v = (int*) calloc(9, sizeof(int));
 
-   if(v == NULL){
-      cout << "Memory allocation error" <<endl;
-      return 1;
-   }
-
+   if(v == NULL) return 1;
+   
    for(int i = 0; i < 3; i++){
       for(int j = 0; j < 3; j++){
          cout << v[(i * 3) + j] << " ";

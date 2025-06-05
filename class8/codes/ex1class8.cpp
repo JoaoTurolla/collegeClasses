@@ -12,10 +12,7 @@ int main() {
 
    v = (int*) malloc(n * sizeof(int));
 
-   if(v == NULL){ 
-      cout << "Memory allocation error" <<endl;
-      return 1;
-   }
+   if(v == NULL) return 1;
    
    for(int i = 0; i < n; i++) v[i] = i;
 
